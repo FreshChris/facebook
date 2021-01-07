@@ -1,0 +1,168 @@
+body{ 
+background:linear-gradient(to bottom right, white, #bcbdc4);
+height:750px;
+}
+
+.header{
+    /*This is for the header on the top of the page where we display the logo of Linkedin to all the way to Sign-in button*/
+    position:absolute;
+	width:100%;
+	height:80px;
+	background:#415e9b;
+	top:0px;
+	left:0px;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	
+}
+#logo{
+	height:50;
+	width:100;
+	left:14%;
+	top:25px;
+	
+}
+#form1{ /*This is for the top, within the header where user fills email and password and then click on sign in*/
+	left:50%;
+	top:9px;
+	height:30px;
+	width:130px;
+	
+}
+#form2{
+	left:67%;
+	top:9px;
+	height:30px;
+	width:130px;
+}
+#forget{
+	color:#95a4c1;
+	font-size:12px;
+	margin-top:5px;
+}
+#submit1{ left:83%; top:29px; background:#4267b2;
+ color:white;  z-index:10; 
+ height:25px; width:55px; cursor:pointer; font-family:'Arial';
+ font-weight: bold;
+ }
+ .main{
+	position:absolute;
+	width:750px;   /* era 100% */
+	height:70px;
+	background-image:url("G:\Photo\linkedin-back.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+	top:70px;
+	right:0px;
+	color:gold;
+	z-index:20;
+	font-family:verdana;
+	 
+ }
+ .box{
+	 margin-top:20px;
+	 height:420px;
+	 width:350px;
+	 background:#e9ebee;
+	 padding-top:15px;
+	 padding-left:28px;
+	 padding-right:28px;
+	 padding-bottom:25px;
+ }
+ #info1{
+	 text-align:center;
+	 
+	 color:black;
+	 
+	 font-family:arial;
+	 font-size:20px;
+ }
+ #info2{
+	 text-align:center;
+	 
+	 color:black;
+	 
+	 font-family:arial;
+	 font-size:16px;
+ }
+  #info3{
+	 text-align:left;
+	 
+	 color:#888889;
+	 
+	 font-family:arial;
+	 font-size:12px;
+ }
+ #info4{
+	 text-align:center;
+	 
+	 color:#888889;
+	 
+	 font-family:arial;
+	 font-size:12px;
+ }
+ 
+ .button2{ width:350px; height:35px; 
+ top:625px; background:#f1c218; font-family:verdana;
+ font-size:16px; font-weight:bold; color:black; border-radius:5px 5px 5px 5px;
+ border-width: 1px; border-style:solid; border-color: gray;
+ cursor:pointer; outline:none; }
+ .sub-footer{
+	position:absolute;
+	width:100%;
+	height:150px;
+	background:#474644;
+        top:500px;
+	right:500px;
+	color:white;
+	z-index:20;
+	font-family:verdana;
+	 
+ }
+ 
+  .box2{
+	 position:center;
+	 color:white;
+	 height:80px;
+	 width:700px;
+	 background:#474644;
+	 padding-top:15px;
+	 padding-left:10px;
+	 padding-right:10px;
+	 padding-bottom:25px;
+ }
+ #submit2{  background:white;
+ color:black;  z-index:20; 
+ height:23px; width:60px; cursor:pointer; 
+ }
+ .footer{
+	position:absolute;
+	width:100%;
+	height:80px;
+	background:#000;
+        top:650px;
+        right:500px;
+	color:white;
+	z-index:20;
+	font-family:verdana;
+	 
+ }
+ 
+  .box3{
+	 
+	 color:white;
+	 height:50px;
+	 width:1000px;
+	 
+	 padding-top:10px;
+	 padding-left:10px;
+	 padding-right:10px;
+	 padding-bottom:20px;
+ }
+ .box3 li{
+	 float:left;
+	 margin-right:20px;
+	 font-size:12px;
+ }
+
